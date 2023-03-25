@@ -1,2 +1,63 @@
 
 /* Your CSS Code here. */
+  form {
+        width: 400px;
+        margin: 0 auto;
+        font-family: Arial, sans-serif;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      input[type="text"],
+      input[type="url"],
+      select,
+      input[type="range"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      input[type="range"] {
+        -webkit-appearance: none;
+        background-color: #ddd;
+        height: 10px;
+        margin-bottom: 30px;
+      }
+      input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        background-color: #007bff;
+        cursor: pointer;
+        border-radius: 50%;
+      }
+      input[type="range"]::-moz-range-thumb {
+        width: 20px;
+        height: 20px;
+        background-color: #007bff;
+        cursor: pointer;
+        border-radius: 50%;
+      }
+      input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #0069d9;
+      }
+      input:invalid {
+        border-color: #dc3545;
+      }
+      input:valid {
+        border-color: #28a745;
+      }
